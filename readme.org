@@ -1,0 +1,67 @@
+* tryte
+1 byte = 8 bits = 256 (2^8) combinations
+1 tryte = 3 trits = 27 (3^3) combinations
+2 trytes = 6 trits = 729 (3^6) combinations
+1 byte + padding = 2 trytes
+padding = 729 - 256 = 473 combinations
+
+* bookmarks
+browser - http://open-iota.prizziota.com/#/
+chatangle - https://www.chatangle.com/#/
+MAM - https://blog.iota.org/introducing-masked-authenticated-messaging-e55c1822d50e
+forum for developers - https://forum.helloiota.com/Technology/Developers
+
+python - https://github.com/iotaledger/iota.lib.py
+
+cryptography
+https://github.com/jedisct1/libsodium
+caesium - https://github.com/lvh/caesium
+sha-3 https://en.wikipedia.org/wiki/SHA-3
+keccak - https://keccak.team/index.html
+
+http://iota.dance/live/
+browser - https://thetangle.org/
+explorer - http://tangle.glumb.de/
+
+CarrIOTA Field: Node intel and balancing - https://medium.com/deviota/carriota-field-node-intel-and-balancing-223002156b54
+
+tryte decoder/encoder - https://iota.felixseele.de/
+convert - https://laurencetennant.com/iota-tools/
+iota convertors: https://laurencetennant.com/iota-tools/
+
+playbook - http://iri-playbook.readthedocs.io/en/master/index.html
+partners - http://iota.partners/
+aws - [[https://github.com/iotFab/iota-aws-full-node]]
+
+docs - https://iota.readme.io/docs
+kerl/curl - https://github.com/iotaledger/kerl
+kerl spec - https://github.com/iotaledger/kerl/blob/master/IOTA-Kerl-spec.md
+sim - https://simulation1.tangle.works/
+transaction how? - https://medium.com/@louielu/in-depth-explanation-of-how-iota-making-a-transaction-with-picture-8a638805f905
+* transaction
+| Field                         | Type   | #trytes |
+|-------------------------------+--------+---------|
+| address                       | String |      27 |
+| attachmentTimestamp           | Int    |         |
+| attachmentTimestampLowerBound | Int    |         |
+| attachmentTimestampUpperBound | Int    |         |
+| branchTransaction             | String |      81 |
+| bundle                        | String |      81 |
+| currentIndex                  | Int    |         |
+| hash                          | String |      81 |
+| lastIndex                     | Int    |         |
+| nonce                         | String |      27 |
+| obsoleteTag                   | String |      27 |
+| signatureMessageFragment      | String |    2187 |
+| tag                           | String |      27 |
+| timestamp                     | Int    |         |
+| trunktransaction              | String |      81 |
+| value                         | Int    |         |
+| TOTAL                         |        | 2673    |
+
+2673 trytes = 8019 trits
+* generate iota seed
+cat /dev/urandom |tr -dc A-Z9|head -c${1:-81}
+
+* address
+is 81 trytes + 9 checksum trytes
