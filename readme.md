@@ -13,11 +13,11 @@
 
 # tryte<a id="sec-1" name="sec-1"></a>
 
-1 byte = 8 bits = 256 (2<sup>8</sup>) combinations
-1 tryte = 3 trits = 27 (3<sup>3</sup>) combinations
-2 trytes = 6 trits = 729 (3<sup>6</sup>) combinations
-1 byte + padding = 2 trytes
-padding = 729 - 256 = 473 combinations
+-   1 byte = 8 bits = 256 (2<sup>8</sup>) combinations
+-   1 tryte = 3 trits = 27 (3<sup>3</sup>) combinations
+-   2 trytes = 6 trits = 729 (3<sup>6</sup>) combinations
+-   1 byte + padding = 2 trytes
+-   padding = 729 - 256 = 473 combinations
 
 # bookmarks<a id="sec-2" name="sec-2"></a>
 

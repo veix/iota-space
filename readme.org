@@ -1,9 +1,9 @@
 * tryte
-1 byte = 8 bits = 256 (2^8) combinations
-1 tryte = 3 trits = 27 (3^3) combinations
-2 trytes = 6 trits = 729 (3^6) combinations
-1 byte + padding = 2 trytes
-padding = 729 - 256 = 473 combinations
+- 1 byte = 8 bits = 256 (2^8) combinations
+- 1 tryte = 3 trits = 27 (3^3) combinations
+- 2 trytes = 6 trits = 729 (3^6) combinations
+- 1 byte + padding = 2 trytes
+- padding = 729 - 256 = 473 combinations
 
 * bookmarks
 browser - http://open-iota.prizziota.com/#/
