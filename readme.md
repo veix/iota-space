@@ -24,25 +24,18 @@
 -   browser - <http://open-iota.prizziota.com/#/>
 -   chatangle - <https://www.chatangle.com/#/>
 -   MAM - <https://blog.iota.org/introducing-masked-authenticated-messaging-e55c1822d50e>
-
-forum for developers - <https://forum.helloiota.com/Technology/Developers>
--   
+-   forum for developers - <https://forum.helloiota.com/Technology/Developers>
 -   python - <https://github.com/iotaledger/iota.lib.py>
--   
 -   dance - <http://iota.dance/live/>
 -   browser - <https://thetangle.org/>
 -   explorer - <http://tangle.glumb.de/>
--   
--   CarrIOTA Field: Node intel and balancing - - <https://medium.com/deviota/carriota-field-node-intel-and-balancing-223002156b54>
--   
+-   CarrIOTA Field: Node intel and balancing - <https://medium.com/deviota/carriota-field-node-intel-and-balancing-223002156b54>
 -   tryte decoder/encoder - <https://iota.felixseele.de/>
 -   convert - <https://laurencetennant.com/iota-tools/>
 -   iota convertors: <https://laurencetennant.com/iota-tools/>
--   
 -   playbook - <http://iri-playbook.readthedocs.io/en/master/index.html>
 -   partners - <http://iota.partners/>
 -   aws - <https://github.com/iotFab/iota-aws-full-node>
--   
 -   docs - <https://iota.readme.io/docs>
 -   kerl/curl - <https://github.com/iotaledger/kerl>
 -   kerl spec - <https://github.com/iotaledger/kerl/blob/master/IOTA-Kerl-spec.md>
